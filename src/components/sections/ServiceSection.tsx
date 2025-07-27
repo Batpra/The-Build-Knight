@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { Card } from '../ui/card'
 import { SERVICES } from '../../lib/constants'
-import { formatPrice } from '../../lib/utils'
 
 export function ServicesSection() {
   return (

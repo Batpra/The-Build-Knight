@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { Button } from '../ui/button'
-import { Logo } from '../ui/logo'
 
 export function HeroSection() {
   return (

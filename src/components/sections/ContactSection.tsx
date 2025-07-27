@@ -26,13 +26,10 @@ export function ContactSection() {
     register,
     handleSubmit,
     formState: { errors },
-    reset,
-    watch
+    reset
   } = useForm<FormData>({
     resolver: yupResolver(schema)
   })
-
-  const watchedProjectTypes = watch('projectTypes') || []
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true)
